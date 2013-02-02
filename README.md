@@ -6,9 +6,9 @@ Code for the Anthrocon Hotel Countdown Timer screen that I used on the website f
 Based on the "end date" which is set in the software, either a countdown timer is displayed, or a page 
 with the link to reserve hotels is displayed.  Here are some screenshots:
 
-<img src="https://raw.github.com/dmuth/anthorcon-hotel-countdown/master/screenshot-anthrocon-hotel-countdown-timer.png" width="300" />
+<img src="https://raw.github.com/dmuth/anthrocon-hotel-countdown/master/screenshot-anthrocon-hotel-countdown-timer.png" width="300" />
 &nbsp;
-<img src="https://raw.github.com/dmuth/anthorcon-hotel-countdown/master/screenshot-anthrocon-hotel-countdown-open.png" 
+<img src="https://raw.github.com/dmuth/anthrocon-hotel-countdown/master/screenshot-anthrocon-hotel-countdown-open.png" 
 width="300" />
 
 
