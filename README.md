@@ -31,6 +31,10 @@ I *highly* recommend tweaking the `deploy-to-s3.sh` script and putting all of yo
 assets (images, CSS, etc.) onto Amazon S3 or AWS CloudFront.  It will decrease the 
 load to your server substantially.
 
+
+Configuration and Use
+=====================
+
 If you are running an actual convention website and want to replace your website with this 
 countdown timer, first make sure that your website has a single entry point. For example, 
 Drupal serves all pages through index.php.  If that's the case, replacing all pages on 
