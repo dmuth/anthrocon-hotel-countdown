@@ -66,4 +66,15 @@ When you're ready to restore access to the website:
 `rm index.php && ln -s main.php index.php`
 
 
+WTF, MSIE?
+==========
+
+WTF, indeed.  MSIE 8 doesn't have issues--it has a subscription.  In the interests of both
+sanity and time, I decided the quickest route would be to not display the counter for 
+MSIE browsers.  I may revisit this in the future.  If there are any front-end folks who would
+like to contribute source to actually make things work under MSIE, feel free!
+
+
+
+
 
