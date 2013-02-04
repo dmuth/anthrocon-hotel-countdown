@@ -35,6 +35,21 @@ load to your server substantially.
 Configuration and Use
 =====================
 
+Start by editing index.php and changing the $start_date and $end_date variables.  
+They are in YYYYMMDDHHMMSS format.
+
+To test things out, you can load the index.php with a "date" argument to 
+force a different end date.  Examples:
+
+- http://localhost/hotel/?date=20120101120000 will force the end date to be 
+Noon on January 1st 2012, and will display the hote reservations link.
+- http://localhost/hotel/?date=20150101130000 will force the end date 
+  to be 1 PM on January 1st, 2015. If it is in fact before that date, 
+  you will see the countdown time.
+
+PROTIP: Before deploying, it would probably be a good idea to comment 
+out the line sets $end_date to $_GET["date"]. :-)
+
 If you are running an actual convention website and want to replace your website with this 
 countdown timer, first make sure that your website has a single entry point. For example, 
 Drupal serves all pages through index.php.  If that's the case, replacing all pages on 
